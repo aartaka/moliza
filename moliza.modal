@@ -1,0 +1,88 @@
+<> dont don't
+<> cant can't
+<> cannot can't
+<> wont won't
+<> dreamed dreamt
+<> dreams dream
+<> how what
+<> when what
+<> like dit
+<> alike dit
+<> same dit
+<> certainly yes
+<> maybe perhaps
+<> deutsch xfremd
+<> francais xfremd
+<> italiano xfremd
+<> espanol xfremd
+<> machine computer
+<> machines computer
+<> computers computer
+<> were was
+<> remind dit
+<> everybody everyone
+<> nobody everyone
+<> noone everyone
+<> feel ((belief))
+<> think ((belief))
+<> believe ((belief))
+<> wish ((belief))
+<> mother ((family))
+<> mom ((family))
+<> dad ((family))
+<> father ((family))
+<> sister ((family))
+<> brother ((family))
+<> wife ((family))
+<> husband ((family))
+<> child ((family))
+<> children ((family))
+<> (?x you remember ?y) (print do you often think of ?y)
+<> (?x do i remember ?y) (print why recall ?y now)
+<> (?x am a ?y) (print what would it mean if you were ?y)
+<> (?x are you ?y) (print would you prefer if i weren't ?y)
+<> (?x are ?y) (print what if they were not ?y)
+<> (?x your ?y) (print what about your own ?y)
+<> (?x was i ?y) (print what if you were ?y)
+<> (?x i was ?y) (print perhaps i already knew you were ?y)
+<> (?x i want ?y) (print why do you want ?y)
+<> (?x i need ?y) (print why do you need ?y)
+<> (?x i am sad ?y) (print i am sorry to hear that)
+<> (?x i am unhappy ?y) (print i am sorry to hear that)
+<> (?x i am depressed ?y) (print i am sorry to hear that)
+<> (?x i am sick ?y) (print i am sorry to hear that)
+<> (?x i am happy ?y) (print how have i helped you with that)
+<> (?x i (belief) i ?y) (print but you are not sure you ?y)
+<> (?x i am ?y) (print how long have you been ?y)
+<> (?x i can't ?y) (print how do you know you can't ?y)
+<> (?x i don't ?y) (print why don't you ?y)
+<> (?x i feel ?y) (print do you enjoy feeling ?y)
+<> (?x i ?y you ?z) (print do you ?y anyone else)
+<> (?x i ?y (belief) you ?z) (you ?z)
+<> (?x you are ?y) (print what makes you think i am ?y)
+<> (?x you ?y me) (print why do you think i ?y you)
+<> (?x you ?y) (print what are your feelings now)
+<> (?x yes ?y) (print you are sure)
+<> (?x no ?y) (print why not)
+<> (?x my ?y (family) ?z) (print tell me more about your family)
+<> (?x my ?y) (print why do you say your ?y)
+<> (?x can you ?y) (print do you want me to ?y)
+<> (?x can i ?y) (print perhaps you don't want to ?y)
+<> (?x what ?y) (print why do you ask)
+<> (?x because ?y) (print is that the real reason)
+<> (?x why don't you ?y) (print you want me to ?y)
+<> (?x why cant't i ?y) (print have you any idea why can't you ?y)
+<> (?x everyone ?y) (print can you think of anyone in particular)
+<> (?x always ?y) (print what incident are you thinking of)
+<> (?x dit ?y) (print in what way)
+<> (sorry) (print please don't apologize)
+<> (?x if ?y) (print do you think it's likely that ?y)
+<> (?x i dreamt ?y) (print have you ever dreamt ?y before)
+<> (?x dream ?y) (print it has something to do with your problem)
+<> (?x none ?y) (print do you feel strongly about discussing such things)
+<> (?x perhaps ?y) (print you don't seem quite certain)
+<> (?x name ?y) (print i am not interested in names)
+<> (?x xfremd ?y) (print i am sorry, i speak only english)
+<> (?x hello ?y) (print how do you do)
+<> (?x computer ?y) (print what about machines worries you)
+<> (print ?:) ?:

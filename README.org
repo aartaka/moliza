@@ -1,0 +1,25 @@
+#+TITLE:Moliza—ELIZA in Modal
+
+This is an attempt to recreate Joseph Weizenbaum's ELIZA (Doctor) script in [[https://wiki.xxiivv.com/site/modal.html][Modal]].
+
+* Getting started
+- Clone the repo.
+- Run the moliza.modal on the text of your question/statement.
+- Watch Moliza respond.
+- Repeat.
+
+In case of [[https://github.com/aartaka/modal.ed][Modal.ed]], the only officially (and incompletely) supported implementation, the workflow is
+#+begin_src sh
+  git clone https://github.com/aartaka/moliza
+  cd moliza/
+  ed moliza.modal -s < /path/to/modal.ed > moliza.ed
+  ed -s moliza.in < moliza.ed
+  # Newline appended
+  # it has something to do with your problem
+#+end_src
+
+* Shortcomings
+- Needs rest/tail/wildcard registers.
+- Implies that there's at least one thing before the anchor words.
+  - Original ELIZA had the zero-or-more words behavior, which is not reproduced here.
+- Most Modal implementations run rules until there's nothing to substitute. The problem with Moliza is that many rules generate the text that can be rewritten again. So modal.c and multiple-pass modal.ed end up with either nonsensical result or endless loops. Restrict the number of passes your Modal implementation does!
